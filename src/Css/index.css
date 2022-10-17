@@ -1,0 +1,104 @@
+body {
+    font-family: 'Helvetica';
+    margin: 0;
+}
+
+h1,
+h2 {
+    margin: 8px 0;
+}
+
+h1 {
+    font-size: 24px
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.row.center {
+    align-items: center;
+}
+
+.col-1 {
+    flex-basis: 100%;
+}
+
+.col-2 {
+    flex-basis: 100%;
+}
+
+@media screen and (min-width:800px) {
+    .col-1 {
+        flex: 1;
+    }
+
+    .col-2 {
+        flex: 1;
+    }
+
+    .card {
+        padding: 40px;
+        margin: 8px;
+        align-items: center;
+    }
+}
+
+.block {
+    background-color: #e0e0e0;
+    padding: 16px;
+    margin: 8px;
+    border-radius: 8px;
+}
+
+img.small {
+    max-height: 128px;
+    width: 100%;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.card {
+    padding: 16px;
+    margin: 8px;
+}
+
+button {
+    font-size: 12px;
+    padding: 3.2px;
+    margin: 1.6px;
+    border-radius: 8px;
+    background-color: #64B5F6;
+    width: 100%;
+    cursor: pointer;
+}
+
+button.add {
+    background-color: #40c0f0;
+    width: 24px;
+}
+
+button.remove {
+    background-color: #f04040;
+    width: 24px;
+}
+
+button.badge {
+    background-color: #f04040;
+    border: none;
+    color: #ffffff;
+    width: 24px;
+}
